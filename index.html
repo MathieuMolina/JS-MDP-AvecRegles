@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="formulaire">
+
+        <label for="username"> Username :</label>
+
+        <input type="text" placeholder = "Username" minlength="3" maxlength="20" required>
+
+
+        <label for="password"> Password :</label>
+
+        <input id = "password" type="password" placeholder = "Password" minlength="12" required>
+
+        <button id="bouton" type="submit" class="dn"> Valider</button>
+
+    
+
+        <p>Votre mot de passe doit contenir au moins :
+            <br><br>
+            <span id="minuscule" class="invalid">Une minuscule.</span>
+            <br>
+            <span id="majuscule" class="invalid">Une majuscule.</span>
+            <br>
+            <span id="chiffre" class="invalid">Un chiffre.</span>
+            <br>
+            <span id="special" class="invalid">Un caractère spécial.</span>
+            <br><br>
+            <span id="longueur" class="invalid">Et faire au moins 12 caractères.</span>
+
+        </p>
+
+    </form> 
+    <script src="./app.js"></script>
+</body>
+</html>

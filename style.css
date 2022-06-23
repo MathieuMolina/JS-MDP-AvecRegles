@@ -1,0 +1,43 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 20px;
+}
+
+#formulaire {
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(4, 181, 240);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color:white;
+}
+
+#bouton{
+    height: 25px;
+    width: 70px;
+}
+
+.valid{
+    color: green;
+}
+
+.invalid{
+    color: red;
+}
+
+.dn{
+    display: none;
+}
